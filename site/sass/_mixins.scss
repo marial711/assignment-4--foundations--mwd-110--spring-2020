@@ -1,0 +1,4 @@
+@mixin font-for-paragraph {
+  font: 20px $font-stack-for-code;
+  color: black;
+}
