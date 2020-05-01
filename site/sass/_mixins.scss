@@ -1,4 +1,10 @@
-@mixin font-for-paragraph {
-  font: 20px $font-stack-for-code;
+@mixin font-for-titles {
+  font: 40px $font-stack-for-code;
   color: black;
+}
+
+@mixin font-for-p {
+  font: 35px 'Dosis', sans-serif;
+  color: $teriary-color;
+  padding: 10px;
 }

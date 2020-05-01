@@ -15,8 +15,12 @@ header {
 div {
   padding: 30px;
   > h3 {
-    color: $secondary-color;
-    
+    @include font-for-titles; 
+    color: $secondary-color; 
+  }
+  > p {
+    @include font-for-p;
+    margin-left: 200px;
   }
 }
 
