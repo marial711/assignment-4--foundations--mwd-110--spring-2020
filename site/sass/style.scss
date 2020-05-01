@@ -1,1 +1,20 @@
-@import variables;
+@import 'variables';
+
+body {
+  background: {
+    color: $primary-color;
+  }
+}
+header {
+  > h1 {
+    color: $secondary-color;
+  }
+}
+
+div {
+  padding: 30px;
+  > h3 {
+    color: $secondary-color;
+  }
+}
+
