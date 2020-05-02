@@ -7,20 +7,28 @@ body {
   }
 }
 header {
+  padding: 75px;
   > h1 {
-    color: $secondary-color;
+    @include font-for-headings;
+    font-size: 80px;
+    text-align: center;
+  }
+  > p {
+    @include settings-for-p;
   }
 }
 
+h2 {
+  @include font-for-headings;
+}
 div {
-  padding: 30px;
+  margin: 30px;
   > h3 {
-    @include font-for-titles; 
-    color: $secondary-color; 
+    @include font-for-headings; 
+    padding: 20px;
   }
   > p {
-    @include font-for-p;
-    margin-left: 200px;
+    @include settings-for-p;
   }
 }
 

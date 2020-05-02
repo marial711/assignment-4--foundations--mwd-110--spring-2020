@@ -1,10 +1,10 @@
-@mixin font-for-titles {
-  font: 40px $font-stack-for-code;
-  color: black;
+@mixin font-for-headings {
+  font: $font-stack-for-headings;
+  color: $secondary-color;
 }
 
-@mixin font-for-p {
-  font: 35px 'Dosis', sans-serif;
-  color: $teriary-color;
-  padding: 10px;
+@mixin settings-for-p {
+  font: $font-size-paragraphs 'Dosis', sans-serif;
+  color: darken($teriary-color, 60%);
+  text-align: center;
 }
