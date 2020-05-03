@@ -20,11 +20,13 @@ header {
 
 h2 {
   @include font-for-headings;
+  font-size: 50px;
 }
 div {
   margin: 30px;
   > h3 {
-    @include font-for-headings; 
+    @include font-for-headings;
+    font-size: 45px;
     padding: 20px;
   }
   > p {
