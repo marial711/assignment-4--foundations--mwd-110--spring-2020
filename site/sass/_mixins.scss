@@ -1,10 +1,21 @@
 @mixin font-for-headings {
-  font: $font-stack-for-headings;
+  font-family: $font-stack-for-headings;
   color: $secondary-color;
 }
 
 @mixin settings-for-p {
-  font: $font-size-paragraphs 'Dosis', sans-serif;
+  font-family: $font-stack-for-paragraphs;
+  font-size: 30px;
   color: darken($teriary-color, 60%);
   text-align: center;
+}
+@mixin nav-settings {
+  text-decoration: none;
+  color: lighten($secondary-color, 23%);
+  font-size: 28px;
+}
+@mixin margin-spacing {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 70px
 }

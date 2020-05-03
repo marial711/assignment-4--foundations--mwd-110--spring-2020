@@ -6,6 +6,7 @@ body {
     color: $primary-color;
   }
 }
+
 header {
   padding: 75px;
   > h1 {
@@ -18,12 +19,21 @@ header {
   }
 }
 
+nav{
+  > a{
+    @include nav-settings;
+      
+  }
+}
+
 h2 {
   @include font-for-headings;
+  margin-left: 30px;
   font-size: 50px;
 }
+
 div {
-  margin: 30px;
+  @include margin-spacing;
   > h3 {
     @include font-for-headings;
     font-size: 45px;
@@ -33,4 +43,3 @@ div {
     @include settings-for-p;
   }
 }
-
