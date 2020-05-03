@@ -13,9 +13,15 @@
   text-decoration: none;
   color: lighten($secondary-color, 23%);
   font-size: 28px;
+  margin-left: 100px;
 }
-@mixin margin-spacing {
+@mixin margin-for-div {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 70px
+}
+@mixin padding-for-nav{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

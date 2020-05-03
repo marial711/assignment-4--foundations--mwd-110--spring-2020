@@ -20,9 +20,13 @@ header {
 }
 
 nav{
-  > a{
+  > a {
+    @include padding-for-nav;
     @include nav-settings;
-      
+    text-align: center;
+    &:hover{
+      color: $secondary-color;
+    }
   }
 }
 
@@ -33,7 +37,7 @@ h2 {
 }
 
 div {
-  @include margin-spacing;
+  @include margin-for-div;
   > h3 {
     @include font-for-headings;
     font-size: 45px;
