@@ -7,18 +7,18 @@
   font-family: $font-stack-for-paragraphs;
   font-size: $font-size-paragraphs;
   color: darken($teriary-color, 60%);
-  text-align: center;
+  text-align: center
 }
 
 @mixin nav-settings {
   text-decoration: none;
-  color: lighten($secondary-color, 20%);
-  font-size: 38px;
-  margin-left: 70px;
+  color: lighten($teriary-color, 30%);
+  text-shadow: 2px 2px darken($teriary-color, 1%);
+  font-size: 28px;
+  margin-right: 0px;
 }
 
 @mixin margin-for-div {
-  
   margin-left: 20px;
   margin-right: 20px;
 }

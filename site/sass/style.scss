@@ -8,10 +8,10 @@ body {
 }
 
 header {
+  padding-top: 100px;
   background: {
     color: darken($primary-color, 5%);
   }
-  padding: 75px;
   > h1 {
     @include font-for-headings;
     font-size: 80px;
@@ -26,20 +26,23 @@ nav {
   background: {
     color: darken($primary-color, 5%);
   }
-  padding-bottom: 75px;
+  padding-left: 25%;
+  padding-bottom: 100px;
   > a {
-    display: inline-block;
+    display: inline-flex;
+    padding-left: 20px;
     @include padding-for-nav;
     @include nav-settings;
     &:hover{
       color: darken($secondary-color, 5%);
+      text-shadow: none;
     }
   }
 }
 
 h2 {
   background: {
-  color: darken($primary-color, 5%);
+    color: darken($primary-color, 5%);
   }
   @include font-for-headings;
   font-size: 50px;
@@ -48,12 +51,12 @@ h2 {
 div {
   @include margin-for-div;
   background: {
-    color: lighten($primary-color, 5%);
+    color: $primary-color;
   }
   > h3 {
     @include font-for-headings;
     font-size: 55px;
-    padding: 50px;
+    padding: 30px;
   }
   &:nth-of-type(even){
     text-align: right;
@@ -61,7 +64,6 @@ div {
   > p {
     @include settings-for-p;
     margin-bottom: 30px;
-    padding-bottom: 30px;
-
+    padding-bottom: 40px;
   }
 }
