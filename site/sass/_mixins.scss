@@ -1,29 +1,27 @@
 @mixin font-for-headings {
   font-family: $font-stack-for-headings;
-  color: $secondary-color;
+  color: darken($secondary-color, 10%);
 }
 
 @mixin settings-for-p {
   font-family: $font-stack-for-paragraphs;
   font-size: $font-size-paragraphs;
   color: darken($teriary-color, 60%);
-  text-align: center
 }
 
 @mixin nav-settings {
   text-decoration: none;
   color: lighten($teriary-color, 30%);
-  text-shadow: 2px 2px darken($teriary-color, 1%);
-  font-size: 28px;
-  margin-right: 0px;
+  text-shadow: 2px 3px darken($teriary-color, 10%);
+  font-size: 30px;
 }
 
 @mixin margin-for-div {
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 @mixin padding-for-nav{
   padding-top: 30px;
 }
-
