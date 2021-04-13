@@ -1,3 +1,55 @@
-.root {
+:root {
   background-color: #9cd19c;
+}
+.header {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(248,252,248,1) 13%, rgba(186,223,186,1) 70%, rgba(156,209,156,1) 81%, rgba(182,221,182,1) 100%);
+  text-align: center;
+  padding: 2.25rem;
+}
+
+ body{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+ }
+ 
+ header {
+   z-index: 1;
+   box-shadow: 0 0 2rem #000
+ }
+
+nav {
+  background: linear-gradient(180deg, rgba(156,209,156,1) 13%, rgba(182,221,182,1) 55%, rgba(255,255,255,1) 98%);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  padding: 0.75rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.45rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-css{ 
+  background-color: white;
+  margin: 2rem;
+  padding: 3rem;
+}
+
+img{
+  width:30vw;
+  height: 35vh;
 }
